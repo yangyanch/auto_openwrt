@@ -34,5 +34,3 @@ git clone --depth=1 https://github.com/ximiTech/msd_lite package/msd_lite
 # MosDNS
 git clone --depth=1 https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
 
-# 科学上网插件
-git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclash

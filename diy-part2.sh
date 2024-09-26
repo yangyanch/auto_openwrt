@@ -34,12 +34,8 @@ git clone --depth=1 https://github.com/ximiTech/msd_lite package/msd_lite
 # MosDNS
 git clone --depth=1 https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
 
-########### 更改默认主题（可选）###########
-# 删除自定义源默认的 argon 主题
-# rm -rf package/lean/luci-theme-argon
-# 拉取 argon 原作者的源码
-# git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
-# 替换默认主题为 luci-theme-argon
-# sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Makefile
-# make menuconfig时记得勾选LuCI ---> Applications ---> luci-app-argon-config
-
+# 科学上网插件
+git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall
+git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
+git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall2 package/luci-app-passwall2
+git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclash

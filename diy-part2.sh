@@ -49,7 +49,7 @@ git clone --depth=1 https://github.com/sbwml/luci-app-mosdns package/luci-app-mo
 git clone --depth=1 -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
 git clone --depth=1 https://github.com/pymumu/openwrt-smartdns package/smartdns
 
-# 科学上网
+# OpenClash
 git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclash
 
 # iStore
